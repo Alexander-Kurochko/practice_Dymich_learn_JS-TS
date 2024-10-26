@@ -9,5 +9,6 @@ export const getStreetsTitlesOfHouses = (houses: Array<HousesType>) => {
 }
 
 export function createMessages(houses: Array<HousesType>) {
-    return houses.map(s => `Hello guys from ${s.address.street.title}`)
+    let callbackfn = (h: HousesType) => `Hello guys from ${h.address.street.title}`
+    return houses.map(callbackfn)
 }

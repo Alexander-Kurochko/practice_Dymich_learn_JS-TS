@@ -1,3 +1,5 @@
+import React from 'react'
+
 /*
 test("Houses should be destroyed", () => {
     demolishHousesOnTheStreet(city, "Happy street");

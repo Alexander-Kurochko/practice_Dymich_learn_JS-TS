@@ -1,3 +1,5 @@
+import React from 'react'
+
 export type CityType = {
     title: string
     houses: Array<HousesType>
